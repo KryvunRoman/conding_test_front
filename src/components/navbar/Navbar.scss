@@ -1,0 +1,92 @@
+.page__navbar {
+  $el-width: 280px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: flex-start;
+  justify-content: center;
+
+  width: $el-width;
+  min-width: $el-width;
+  background-color: #3e4750;
+
+  & > * {
+    flex: 1;
+  }
+}
+
+.logo {
+  height: 90px;
+  display: flex;
+  background-color: #363d45;
+
+  .logo__link {
+    display: block;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin: auto auto auto 55px;
+    color: #ffffff;
+  }
+}
+
+.nav {
+
+  .nav__block {
+    text-align: center;
+
+    & + .nav__block {
+      border-top: 1px solid #49515c;
+    }
+  }
+  .nav__list {
+    padding: 20px 20px 20px 55px;
+
+    .nav__item {
+      display: block;
+      margin: 20px 0;
+      text-align: left;
+      .nav__link {
+        display: inline-block;
+        color: #8a929d;
+        transition: color 0.2s ease-out;
+
+        &:hover {
+          color: #ececec;
+        }
+      }
+    }
+  }
+}
+
+.btn-block {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+
+  &.btn__blue {
+    padding: 16px 20px;
+    min-width: 80%;
+    width: 225px;
+    font-size: 16px;
+    border: 2px solid #98c2d2;
+    border-radius: 8px;
+    color: #98c2d2;
+    text-transform: uppercase;
+    outline: none!important;
+    transition: color 0.2s ease-out, background-color 0.2s ease-out;
+
+    &:hover {
+      background-color: #98c2d2;
+      color: #3e4750;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["react"],
+  "rules": {
+    "no-cond-assign": ["error", "always"],
+    "semi": 2,
+    "no-console": 1
+  },
+  "extends": ["plugin:react/recommended"]
+}

@@ -1,0 +1,30 @@
+.fa {
+  margin-left: 5px;
+}
+
+.credit {
+  color: #86c9d4;
+}
+
+.debit {
+  color: #f45d5f;
+}
+
+.attachements {
+  &__icon {
+    $el-color: #888;
+
+    font-size: 20px;
+    color: $el-color;
+
+    transition: color .2s ease-out;
+
+    &:hover {
+      color: darken($el-color, 35%);
+    }
+  }
+
+  &__count {
+    margin-left: 5px;
+  }
+}

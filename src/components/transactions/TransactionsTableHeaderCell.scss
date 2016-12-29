@@ -1,0 +1,14 @@
+$caret-width: 10px;
+$caret-margin: 5px;
+
+.caret__sort {
+    margin-left: $caret-margin;
+    width: $caret-width;
+    color: #f2b140;
+}
+
+.caret__sort__empty {
+    display: inline-block;
+    margin-left: $caret-margin;
+    width: $caret-width;
+}

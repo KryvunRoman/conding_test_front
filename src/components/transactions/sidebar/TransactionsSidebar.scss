@@ -1,0 +1,23 @@
+.content__right {
+  $el-width: 300px;
+
+  width: $el-width;
+  min-width: $el-width;
+  background-color: #fff;
+
+  .content__top {
+    height: 90px;
+    width: 100%;
+    background-color: #f6f6f6;
+  }
+
+  .content__body {
+    color: #888888;
+    min-height: calc(100% - 90px);
+    display: flex;
+
+    .content__body > div {
+
+    }
+  }
+}
