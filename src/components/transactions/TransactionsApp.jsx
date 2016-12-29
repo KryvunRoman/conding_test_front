@@ -15,7 +15,7 @@ export default class TransactionsApp extends Component {
 
     componentDidMount() {
         axios
-            .get(`http://private-5d708-interviewfront.apiary-mock.com/transactions`)
+            .get(`https://private-5d708-interviewfront.apiary-mock.com/transactions`)
             .then(
                 result => this.setState({transactions: result.data.transactions})
             )
