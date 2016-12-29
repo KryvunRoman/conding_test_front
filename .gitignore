@@ -34,7 +34,5 @@ Desktop.ini
 .idea_modules/
 
 node_modules
-bundle.js
-build
 *.log
 npm-debug.log
